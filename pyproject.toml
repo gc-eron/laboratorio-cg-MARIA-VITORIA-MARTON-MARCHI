@@ -1,0 +1,23 @@
+[project]
+name = "trabalho-computacao-grafica"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MVitoriahub", email = "vitoria.marchi@edu.unifil.br" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "opencv-python-headless>=5.0.0.93",
+    "pillow>=12.3.0",
+    "streamlit>=1.66.0",
+]
+
+[project.scripts]
+trabalho-computacao-grafica = "trabalho_computacao_grafica:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
